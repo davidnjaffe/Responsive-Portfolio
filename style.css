@@ -1,18 +1,11 @@
 
-/* div {
-    border: 1px solid red;
-} */
-
-
-
-
-
+/* ----- colors -------
 .{ color: #010B40; }
 .{ color: #536473; }
 .{ color: #8BBF56; }
 .{ color: #AFF24B; }
 .{ color: #F2F2F2; }
-
+<------------------>
 
 /* typography 
 font-family: 'Open Sans Condensed', sans-serif;
@@ -20,6 +13,7 @@ font-family: 'Staatliches', cursive;*/
 
 p {
     font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
 }
 
 h1,h2,h3 {
@@ -32,6 +26,10 @@ h1,h2,h3 {
 
 #lets-chat {
     text-align: center;
+}
+
+#intro {
+    margin-top: 20px;
 }
 
 /* home header  */
@@ -155,4 +153,13 @@ form {
 
   #sticky-footer {
       text-align: center;
+  }
+
+  /* images */
+
+  .img-thumbnail {
+      border:none;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
   }
